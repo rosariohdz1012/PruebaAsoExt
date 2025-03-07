@@ -20,10 +20,10 @@ Este proyecto se desarrolló como parte de una prueba técnica para evaluar las 
  
 
 ### Las tecnologías que se utilizaron fueron: 
--JAVA 1.8 
--Maven 3.5.3 
--Github 
--IDEA de Intellij 
+- JAVA 1.8 
+- Maven 3.5.3 
+- Github 
+- IDEA de Intellij 
 
- ###Supuestos: 
+ ### Supuestos: 
  Para agilizar el desarrollo y evitar errores de conversión de tipos de datos, se considera que todos los datos ingresaron como String para no tener errores 
