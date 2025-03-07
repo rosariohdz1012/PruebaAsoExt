@@ -12,6 +12,6 @@ import javax.xml.ws.Service;
 public interface ISrvHelloWorld {
 	
 	ServiceResponseCreated<DateOut> crear(@Valid DateIn dateIn);
-//	ServiceResponseNoContent actualizar(@Valid DateIn dateIn);
+
 
 }
