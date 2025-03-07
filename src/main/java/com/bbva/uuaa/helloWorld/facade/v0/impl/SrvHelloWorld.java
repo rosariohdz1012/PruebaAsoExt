@@ -46,20 +46,5 @@ public class SrvHelloWorld implements ISrvHelloWorld {
 		return ServiceResponseCreated.data(dateOut).build();
 	}
 
-//	@Override
-//	@PUT
-//	@Path ("/actualizarUsuario")
-//	@Produces ({MediaType.APPLICATION_JSON})
-//	@Consumes({MediaType.APPLICATION_JSON})
-//	@SMC (registryID = "SNGG20240030", logicalID = "actualizarUsuario")
-//	public ServiceResponseNoContent actualizar (@Valid DateIn dateIn)  {
-//
-//		ISrvHelloWorldMapper mapper = Mappers.getMapper(ISrvHelloWorldMapper.class);
-//		BDateIn bDateIn = mapper.datosEntradaB(dateIn);
-//		BDateOut bDateOut = business.mapBusiness(bDateIn);
-//
-//		return ServiceResponseNoContent.ServiceResponseNoContentBuilder.build();
-//
-//	}
 
 }
